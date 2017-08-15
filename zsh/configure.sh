@@ -1,10 +1,7 @@
 #!/bin/sh
 
-DEPS=(zsh git)
-
-# Check for each dependecy, whether it is installed or not
-for dep in ${DEPS[@]}; do
-	type $dep > /dev/null 2>&1 || { echo "Error: Package \"$dep\" is not installed."; exit 1; }
+for dep in $(cat pacaur-deps.txt); do
+	pacaur --needed -S "$dep";
 done
 
 # Make .zsh directory if it doesn't exist already and change into it
