@@ -1,4 +1,8 @@
 python
 python-pip
-adwaita-maia-gtk3
-adwaita-manjaro-themes
+thunderbird
+okular
+vlc
+xviewer
+simple-scan
+discord-canary
