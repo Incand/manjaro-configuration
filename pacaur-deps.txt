@@ -5,4 +5,3 @@ okular
 vlc
 xviewer
 simple-scan
-discord-canary
