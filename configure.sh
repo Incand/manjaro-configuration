@@ -18,3 +18,5 @@ echo "Calling configure in subdirs..."
 for conf in */configure.sh; do
 	$conf;
 done
+
+qtconfig-qt4 &
