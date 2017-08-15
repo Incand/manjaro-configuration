@@ -1,7 +1,10 @@
 #!/bin/bash
 
+echo "Installing pacaur..."
+sudo pacman --needed -S pacaur
+
 echo "Installing pacaur-deps..."
-for $dep in $(cat pacaur-deps.txt); do
+for dep in $(cat pacaur-deps.txt); do
 	pacaur --needed -S "$dep";
 done
 
@@ -13,5 +16,5 @@ sudo cp profile /etc/profile
 
 echo "Calling configure in subdirs..."
 for conf in */configure.sh; do
-	echo "$conf";
+	$conf;
 done
