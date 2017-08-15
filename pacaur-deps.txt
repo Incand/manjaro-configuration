@@ -5,3 +5,5 @@ okular
 vlc
 xviewer
 simple-scan
+udisks2
+udiskie

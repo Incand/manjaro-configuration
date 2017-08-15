@@ -14,6 +14,9 @@ sudo cp 50-alsa.conf /etc/modprobe.d/
 echo "Configuring profile..."
 sudo cp profile /etc/profile
 
+echo "Configuring udisks2 with udiskie..."
+sudo cp 99-udisks2.rules /etc/udev/rules.d/
+
 echo "Calling configure in subdirs..."
 for conf in */configure.sh; do
 	$conf;
