@@ -6,8 +6,9 @@ for $dep in $(cat pacaur-deps.txt); do
 done
 
 echo "Configuring alsa..."
-sudo cp alsa/50-alsa.conf /etc/modprobe.d/
+sudo cp 50-alsa.conf /etc/modprobe.d/
 
 echo "Calling configure in subdirs..."
 for conf in */configure.sh; do
-	$(
+	echo "$conf";
+done
