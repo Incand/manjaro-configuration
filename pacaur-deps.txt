@@ -1,0 +1,4 @@
+python
+python-pip
+adwaita-maia-gtk3
+adwaita-manjaro-themes
