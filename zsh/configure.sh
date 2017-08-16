@@ -21,4 +21,3 @@ cp oh-my-zsh/templates/zshrc-Incand ~/.zshrc
 
 # Change and spawn shell
 chsh -s /bin/zsh
-zsh
