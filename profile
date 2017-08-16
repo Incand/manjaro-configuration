@@ -26,6 +26,9 @@ unset TERMCAP
 # Man is much better than us at figuring this out
 unset MANPATH
 
+# Remove the annoying beep sound
+xset -b
+
 # Start X server
 if [ -z "$DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ]; then
   exec startx
