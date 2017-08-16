@@ -25,3 +25,6 @@ cmake -G "Unix Makefiles" -DUSE_SYSTEM_LIBCLANG=ON . ~/.vim/bundle/YouCompleteMe
 
 echo "Building ycm..."
 cmake --build . --target ycm_core
+
+echo "Cleaning up..."
+rm -rf ~/ycm_build
