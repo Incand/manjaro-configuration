@@ -7,3 +7,4 @@ xviewer
 simple-scan
 udisks2
 udiskie
+unclutter
