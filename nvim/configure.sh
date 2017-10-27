@@ -13,7 +13,7 @@ fi
 echo "Installing Vundle plugins..."
 nvim +PluginInstall +qall
 
-if [[ ! -d ~/.local/share/nvim/pugged ]]; then
+if [[ ! -d ~/.local/share/nvim/plugged ]]; then
     echo "Gettung vimplug..."
     curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
