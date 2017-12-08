@@ -23,15 +23,36 @@ else
     let g:editor_root=expand("~/.vim")
 endif
 
+" Plugin managers
 source ~/.config/nvim/init/vundle-plugins.vim
 source ~/.config/nvim/init/vimplug-plugins.vim
-source ~/.config/nvim/init/deoplete-conf.vim
-source ~/.config/nvim/init/python-conf.vim
+
+" Quality of life text editing
 source ~/.config/nvim/init/nerdtree-conf.vim
-source ~/.config/nvim/init/simplyfold-conf.vim
+source ~/.config/nvim/init/simpylfold-conf.vim
+source ~/.config/nvim/init/ctrlp-conf.vim
+
+" Snippets
+source ~/.config/nvim/init/neosnippet-conf.vim
+
+" Auto completion
+source ~/.config/nvim/init/deoplete-conf.vim
+source ~/.config/nvim/init/vimtex-conf.vim
+
+" Syntax checking
+source ~/.config/nvim/init/syntastic-conf.vim
+
+" Linting
+source ~/.config/nvim/init/neomake-conf.vim
+
+" Misc
+source ~/.config/nvim/init/python-conf.vim
+
+" Custom commands
+source ~/.config/nvim/init/custom-shortcuts.vim
 
 " Neovim python check
-let g:python_host_prog='/usr/bin/python2'
+"let g:python_host_prog='/usr/bin/python2'
 
 " Activate color scheme
 colors moonfly

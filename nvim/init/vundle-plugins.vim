@@ -35,9 +35,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 
 " Quality of life text editing
-Plugin 'tmhedberg/SimpylFold'
+Plugin 'tmhedberg/SimpylFold'    " Python
 
-Plugin 'Shougo/neocomplete'
 Plugin 'Shougo/neosnippet'
 Plugin 'Shougo/neosnippet-snippets'
 
